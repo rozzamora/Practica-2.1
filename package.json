@@ -10,5 +10,8 @@
     "Practica2.1"
   ],
   "author": "Mario Cordova y Roberto Zamora",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
