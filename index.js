@@ -6,7 +6,7 @@ const archive = ".\\persons.json"
 
 //Mandando un Texto plano
 app.get("/Mario", (req, res) =>{
-    res.send("Ruta de Mario")
+    res.status(200).send("Ruta de Mario")
 });
 
 //Mandando el agrchivo con objetos json
