@@ -27,7 +27,7 @@ app.post("/Mario", (req, res) =>{
 //Mandando el agrchivo con objetos json
 app.post("/Roberto", (req, res) =>{
     //Accediendo al modulo
-    const persons = require(a_archive);
+    const teams = require(a_archive);
     res.status(200).json(teams);
     //Para observar el estado de respuesta
     //console.log("Estado de respuesta: ",res.statusCode)
